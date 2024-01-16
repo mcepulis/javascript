@@ -2,11 +2,42 @@
   "name": "javascript",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "objects": "node --watch kintamieji/objects.js",
+    "metodai:array-hof": "node --watch metodai/array-hof.js",
+    "arrow": "node --watch functions/arrow.js",
+    "metodai:map": "node --watch metodai/map.js",
+    "metodai:array": "node --watch metodai/array.js",
+    "metodai:sort": "node --watch metodai/sort.js",
+    "metodai:filter": "node --watch metodai/filter.js",
+    "metodai:reduce": "node --watch metodai/reduce.js",
+    "metodai:string": "node --watch metodai/string.js",
+    "metodai:number": "node --watch metodai/number.js",
+    "tipas": "node --watch kintamieji/tipas.js",
+    "test": "node --watch test.js",
+    "marksAverage": "node --watch ciklas/marksAverage.js",
+    "for": "node --watch ciklas/for.js",
+    "ternary": "node --watch palyginimas/ternary.js",
+    "if": "node --watch palyginimas/if.js",
+    "sum": "node --watch functions/sum.js",
+    "empty": "node --watch functions/empty.js",
+    "array": "node --watch kintamieji/array.js",
+    "boolean": "node --watch kintamieji/boolean.js",
+    "string": "node --watch kintamieji/string.js",
+    "number": "node --watch kintamieji/number.js",
+    "number-nodemod": "nodemon kintamieji/number.js",
+    "uzd:students": "nodemon uzd/students.js",
+    "dev": "nodemon index.js",
+    "fail": "node --watch index.js",
+    "demo": "echo \"this is demo\" && exit 1",
+    "test2": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Mike  Pukuotukas (https://github.com/mcepulis)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^3.0.2"
+  }
 }
