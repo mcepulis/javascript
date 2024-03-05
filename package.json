@@ -5,6 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "destructuring": "node --watch operators/destructuring.js",
     "objects": "node --watch kintamieji/objects.js",
     "metodai:array-hof": "node --watch metodai/array-hof.js",
     "arrow": "node --watch functions/arrow.js",
